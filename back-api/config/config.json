@@ -1,0 +1,10 @@
+{
+  "production": {
+    "username": "please_edit",
+    "password": "please_edit",
+    "database": "please_edit",
+    "host": "please_edit",
+    "dialect": "please_edit",
+    "port":"please_edit"
+    }
+  }

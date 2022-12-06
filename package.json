@@ -1,0 +1,26 @@
+{
+  "name": "direct-movies-app",
+  "version": "0.0.1",
+  "description": "full stack application to rent audiovisual content",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valdidev/direct-movies-app.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mysql",
+    "sequelize",
+    "reactjs"
+  ],
+  "author": "Hector Gonzalez @hectorgv00 - Diego Waisrub @di3lux - Fernando Valdivielso @valdidev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valdidev/direct-movies-app/issues"
+  },
+  "homepage": "https://github.com/valdidev/direct-movies-app#readme"
+}
