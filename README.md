@@ -1,6 +1,5 @@
 <h1 style="text-align: center;">Direct Movies APP</h1> 
 
-![logoSite](https://user-images.githubusercontent.com/96445737/206148588-8328c9e7-b092-4f62-a04e-b5df25250df7.png)
 ## _Full stack application for renting audiovisual content_
 
 ![direct-home](https://user-images.githubusercontent.com/96445737/206133855-e3ea7188-497c-407f-8c9e-9ac6bf3f2e21.png)
@@ -9,9 +8,13 @@
 ## Frontend
 - Reactjs
 - Bootstrap
+- Redux Toolkit
 ## Backend API
 - Node with Express
 - Json Web Token
+- ORM Sequelize
+## Database
+- MySQL
 
 
 # Features ✔️
@@ -45,90 +48,14 @@ _Admin profile will appear, to manage the app_
 
 ![direct-admin-all-loans](https://user-images.githubusercontent.com/96445737/206150927-39d318f1-6075-4389-8a76-1cc5a7316e6e.png)
 
-# Installation ⚙️
+# Try it 🚀 
 
-Requires [Node.js](https://nodejs.org/) v16+ to run.
 
-Install the dependencies and devDependencies and start the server.
+[Go to Direct Movies](https://deploy.d33ck4kzol9rq3.amplifyapp.com/)
 
-```sh
-npm install
-```
-
-## Start up
-### 1. Create the SQL database
-
-Go to the **.env.example** file and rename it to **.env** and modify it with your settings
-
-```sh
-JWT_SECRET="add jtw secret"
-SERVICE_PORT="add service port"
-
-DB_USER="add database user"
-DB_PSWD="add database password"
-DB_HOSTNAME="add database hostname"
-DB_PORT="add database port"
-DB_NAME="add database name"
-DB_DIALECT="add database dialect"
-```
-
-Create database and call it
-```sh
-rentalmovies
-```
-or throw
-```sh
-npx sequelize-cli db:create
-```
-
-### 2. Populate the database
-Two ways:
+_Deployed on AWS_
 ***
 
-##### 2.1 Migrations
-Rename config/**example.config.json** to **config.json** and and modify it with your settings
-```sh
-{
-  "development": {
-    "username": "db username",
-    "password": "db password",
-    "database": "db database",
-    "host": "db host",
-    "dialect": "db dialect",
-    "port": "db port"
-  }
-}
-```
-Launch the migrations
-```sh
-npx sequelize-cli db:migrate
-```
-***
-or
-***
-##### 2.2 Sequelize models
-Go to **index.js** and change sequelize.authenticate() to
-
-```sh
-sequelize.sync()
-```
-_Remember to change it back if you want to keep the changes_
-***
-##### 2.3 Seeders
-If you want to have mocked data you can use
-
-```sh
-npx sequelize-cli db:seed:all
-```
-
-# Test the app 
-
-In the **test** folder you will find test files as a client
-- auth.test.http
-- movies.test.http
-- series.test.http
-- rentals.test.http
-***
 # EER Diagram
 ![direct_movies_2](https://user-images.githubusercontent.com/96445737/206137482-a6fa3b24-37d3-4df0-82f2-934ab1089a3b.png)
 
