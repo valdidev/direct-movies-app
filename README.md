@@ -61,9 +61,7 @@ _Deployed on AWS_
 
 # History
 _This full stack project is part of an evolutionary collaborative project, if you want to see the original repositories visit the links:_
-- My original API [link](https://nodejs.org/)
-- Our team API [link](https://nodejs.org/)
-- Reactjs [link](https://nodejs.org/)
+- [My original API](https://github.com/valdidev/rental-movies)
 
 
 # License
